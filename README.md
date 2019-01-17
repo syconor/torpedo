@@ -1,4 +1,7 @@
-# Teszt
+main library -> npm i
 
-Jack the reaper!
+server : test.bat -> running on localhost:3000
 
+front end: run.bat -> browser: localhost:8080
+
+needs mongodb
