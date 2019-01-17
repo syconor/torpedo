@@ -1,0 +1,47 @@
+{
+  "name": "torpedo_01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "nodemon node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "mongodb": "^3.1.6",
+    "node-static": "^0.7.10",
+    "nodemon": "^1.18.4",
+    "npm": "^6.4.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "description": "Jack",
+  "main": "test.js",
+  "author": "Jack",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syconor/torpedo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syconor/torpedo/issues"
+  },
+  "homepage": "https://github.com/syconor/torpedo#readme"
+}
